@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ArtGallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<div class="row" >
+     <nav class="navbar navbar-expand-sm bg-light">
+         <div class="container-fluid">
+             <h1 class="navbar-brand mt-2" style="font-family:papyrus;">Artgallery</h1>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar1left">
+                 <span class="navbar-toggler-icon text-dark"></span>
+             </button>
+             <div class="collapse navbar-collapse m-3" id="navbar1left">
+                 <ul class="navbar-nav me-auto">
+                     <li class="nav-item navquery mx-1"><a class="nav-link" href="Link1">Link1</a> </li>
+                     <li class="nav-item navquery mx-1"><a class="nav-link" href="Link2">Link2</a> </li>
+                     <li class="nav-item navquery mx-1"><a class="nav-link" href="Link3">Link3</a> </li>
+                 </ul>
+                 <ul class="navbar-nav ms-auto">
+                     <li class="nav-item navquery"><a class="nav-link" href="Link3">Login</a> </li>
+                 </ul>
+             </div>
+         </div>
+     </nav>
+</div>
+<div class="row stickynavbar" >
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item navquery mx-4"><a class="nav-link" href="Link1">Home</a> </li>
+                <li class="nav-item navquery mx-4"><a class="nav-link" href="Link2">About</a> </li>
+                <li class="nav-item navquery mx-4"><a class="nav-link" href="Link3">ContactUs</a> </li>
+                <li class="nav-item navquery mx-4"><a class="nav-link" href="Link1">Courses</a> </li>
+                <li class="nav-item navquery mx-4"><a class="nav-link" href="Link2">Follow Us</a> </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- Carousel -->
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Carousel1.jfif" alt="Landscape" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Landscape</h3>
+                <p style="font-style:italic;">~Credits</p>
+                <button type="button" class="btn btn-light">Learn More</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/Carousel2.jpg" alt="landscape" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Landscape</h3>
+                <p style="font-style:italic;">~Credits</p>
+                <button type="button" class="btn btn-light">Learn More</button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/Carousel3.jpg" alt="landscape" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Landscape</h3>
+                <p style="font-style:italic;">~Credits</p>
+                <button type="button" class="btn btn-light">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-margin">
+            <div class="card ">
+                <img src="images/Portrait2.jpg" alt="Portrait-img" class="card-img-top" height="500px">
+                <div class="card-body">
+                    <div class="card-title"><h2>Portrait Photography</h2></div>
+                    <div class="card-text">
+                        <p>One of the most common photography styles, portrait photography, or portraiture, aims to capture the
+                            personality and mood of an individual or group. Images may be candid or posed, full body or close-ups..</p>
+                        <a href="#" class="d-flex btn btn-secondary justify-content-center mb-2">Learn More</a>
+                        <h4>FAQS</h4>
+                        <div id="portraitaccordian">
+                            <div class="card" >
+                                <div class="card-header"style="padding:0px 14px;">
+                                    <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse1">Question1</a>
+                                </div>
+                                <div class="collapse" id="portraitcollapse1" data-bs-parent="#portraitaccordian">
+                                    <div class="card-body">
+                                        Answer1
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" style="padding:0px 14px;">
+                                    <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse2">Question2</a>
+                                </div>
+                                <div class="collapse" id="portraitcollapse2" data-bs-parent="#portraitaccordian">
+                                    <div class="card-body">
+                                        Answer2
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" style="padding:0px 14px;">
+                                    <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse3">Question1</a>
+                                </div>
+                                <div class="collapse" id="portraitcollapse3" data-bs-parent="#portraitaccordian">
+                                    <div class="card-body">
+                                        Answer1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quote">
+                <div>
+                    <p style="font-style:inherit;">“When words become unclear, I shall focus with photographs.
+                        When images become inadequate, I shall be content with silence.”</p>
+                    <i>~Ansel Adams</i>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-margin">
+            <div class="quote">
+                <div>
+                    <p style="font-style:inherit;">“If you are out there shooting, things will happen for you. If you’re not out there,
+                        you’ll only hear about it.”
+                    </p>
+                    <i>~Jay Maisel</i>
+                </div>
+            </div>
+                    <div class="card ">
+                        <img src="images/architectural.jpg" alt="Portrait-img" class="card-img-top" height="500px">
+                        <div class="card-body">
+                            <div class="card-title"><h2>Portrait Photography</h2></div>
+                            <div class="card-text">
+                                <p>One of the most common photography styles, portrait photography, or portraiture, aims to capture the
+                                    personality and mood of an individual or group. Images may be candid or posed, full body or close-ups..</p>
+                                <a href="#" class="d-flex btn btn-secondary justify-content-center mb-2">Learn More</a>
+                                <h4>FAQS</h4>
+                                <div id="portraitaccordian1">
+                                    <div class="card" >
+                                        <div class="card-header"style="padding:0px 14px;">
+                                            <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse11">Question1</a>
+                                        </div>
+                                        <div class="collapse" id="portraitcollapse11" data-bs-parent="#portraitaccordian1">
+                                            <div class="card-body">
+                                                Answer1
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" style="padding:0px 14px;">
+                                            <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse12">Question2</a>
+                                        </div>
+                                        <div class="collapse" id="portraitcollapse12" data-bs-parent="#portraitaccordian1">
+                                            <div class="card-body">
+                                                Answer2
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" style="padding:0px 14px;">
+                                            <a class="btn" data-bs-toggle="collapse" href="#portraitcollapse13">Question1</a>
+                                        </div>
+                                        <div class="collapse" id="portraitcollapse13" data-bs-parent="#portraitaccordian1">
+                                            <div class="card-body">
+                                                Answer1
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

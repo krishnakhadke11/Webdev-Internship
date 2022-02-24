@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+    margin:0;
+    background-color: #f1f1f1;
+    }
+  .header{
+        position: fixed;
+        top: 0;
+        background-color: #ccf2ff;
+        height: 100px;
+        display: flex;
+        width: 100%;
+  }
+  .middle{
+       color: #0099cc;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 55px;
+       padding-top: 20px;
+       width: 40%;
+       flex: 0;
+  }
+  .left{
+      width: 100px;
+      flex: 1;
+  }
+  .right{
+      padding:38px 0 38px 38px;
+      text-align: right;
+      width: 20%;
+      flex: 1;
+  }
+  .headerlinks,.headerdescription{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      color: rgb(0, 0, 77);
+      height: 100%;
+      padding: 38px;
+      text-decoration: none;
+   }
+   .generalbuttons{
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         background-color:#b3ecff;
+         color: rgb(0, 0, 77);
+         margin:4px 5px;
+         padding: 14px 25px;
+         text-align: center;
+         text-decoration: none;
+         display:inline-block;
+         border:0;
+   }
+
+  .headerlinks:hover{
+  background-color:#66d9ff;
+  }
+.logintempl,.registration{
+margin:14% 39% 10% 39%;
+padding:50px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+border-radius:19px;
+}
+.hometempl{
+margin:10% 14%;
+padding:50px;
+}
+
+.logintempl p{
+text-align:center;
+}
+.logintempl,.registration label{
+font-size:25px;
+
+
+}
+.logintempl input,.registration input,.registration select
+{
+border:2px solid #ccc;
+ transition: 0.5s;
+  outline: none;
+  width:100%;
+  padding:8px;
+  margin-bottom:17px;
+  border-radius:2px;
+  }
+  .logintempl input:focus,.registration input:focus{
+  border:3px solid #555;
+  }
+  .primarybutton,.secondarybutton{
+  border:0;
+  margin:20px 2px;
+  padding:10px 27px;
+  cursor:pointer;
+ }
+ .primarybutton{
+background-color:#b3ecff;
+ }
+ .primarybutton:hover,.generalbuttons:hover{
+   background-color:#66d9ff;
+   }
+   .secondarybutton{
+     margin-top:10px;
+   }
+
+   .secondarybutton:hover{
+   background-color:#e6e6e6;
+   }
+   .colleft{
+   float:left;
+   }
+   .container{
+   display:flex;
+   flex-direction:row;
+   }
+   .container>div{
+   flex:1;
+   }
+   .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
+    .AddAlert
+      {
+      margin: 184px 441px;
+      padding: 35px 40px;
+      }
+  .colleft
+  {
+  float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  .colright
+  {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+.navbar-toggler-icon{
+    background-image:url("Navbaricon1.png");
+    }
+@media only screen and (max-width:500){
+    .navquery{
+        width:100%;
+        text-align:center;
+    }
+}
+.stickynavbar
+{
+    position:sticky;
+    top:0;
+    z-index:1;
+}
+
+.col-margin
+{
+    margin:2% 8%;
+}
+.quote
+{
+    margin:73% 8%;
+}
+
