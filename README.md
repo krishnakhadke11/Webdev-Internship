@@ -1,6 +1,6 @@
 # Webdev-Internship
 - I have done a learning based webdev internship,where i have learned html,css and basics of bootstrap
-- Here Dose4u was my sem-2 project (i.e Dosage Reminder management),So i just tried some designs for it.
+- Here Dose4u was my sem-3 project (i.e Dosage Reminder management),So i just tried some designs for it.
 # ScreenShots:
 ## Html-CSS Frames
 ### - Login
